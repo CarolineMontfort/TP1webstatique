@@ -27,13 +27,13 @@
                     <li> <input type="radio" name = "annee" value="1A" checked> 1A <input type="radio" name = "annee" value="2A" checked> 2A </li>
                 </ol>
             </p>
-            Remarques :<input type="text" name="remarques">
+            Remarques : <br> <textarea id="story" name="Remarques" rows="3" cols="45"> </textarea>
         <br> <br>
-        <input type="submit" value=Valider>
+        <input type="submit" value=Valider>s
         </form> 
         <hr>
         <h2>2.Enseignant</h2>
-        <form action="textlistforms.html" method="post">  
+        <form action="medias.html" method="get">  
             Prénom : <br><input type="text" name="prenom"> <br>
             Nom :<br> <input type="text" name="nom"> <br><br>
             <select name="campus">
@@ -43,8 +43,7 @@
             </select> <br>
             Mot de passe : <br> <input type="password" name="password">             
         <br> <br>
-        <input type="submit" value=Valider onclick="document.location.href=modifyURL(init.html)">
-        <a href="medias.html">Valider</a>
+        <input type="submit" value=Valider >
         </form>
         <hr>
         <form action="textlistforms.html" method="post">  
@@ -52,7 +51,9 @@
             <h3><pre>   ISEN <br> </pre></h3>
             <pre>       Institut Supérieur de l'Electronique et du Numérique</pre>
             <h3><pre>   HTML <br> </pre></h3>
+            <pre>       HyperText Markup Language </pre>
         </form>
+        <hr>
     </body>
     
 </html>
