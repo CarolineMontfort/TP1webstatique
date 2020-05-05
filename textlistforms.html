@@ -5,38 +5,38 @@
         <title> Titre </title>
     </head>
     <body>
-        <a href="textlistforms.html">Textes&Listes&Formulaires</a>
+        <a href="textlistforms.html">Textes&Listes&Formulaires</a>  <!-- lien vers textlistforms.html -->
         |
-        <a href="tables.html">Tableaux</a>
+        <a href="tables.html">Tableaux</a> <!-- lien vers tables.html -->
         |
-        <a href="medias.html">Medias</a>
+        <a href="medias.html">Medias</a>  <!-- lien vers medias.html -->
         <br>
         <hr>
-        <ul>
-            <li>Etudiant</li>
+        <ul>    
+            <li>Etudiant</li>    <!-- liste -->
             <li>Enseignant</li>
             <li>Abbréviation</li>
         </ul>
         <hr>
         <h2>1.Etudiant</h2>
-        <form action="textlistforms.html" method="get">  
+        <form action="textlistforms.html" method="get">  <!-- formulaire avec URL modifiée -->
             Prénom : <input type="text" name="prenom">
             Nom : <input type="text" name="nom"> <br>
             <p> Année d'études
-                <ol> 
+                <ol>   <!-- Faire bouton radios -->
                     <li> <input type="radio" name = "annee" value="1A" checked> 1A <input type="radio" name = "annee" value="2A" checked> 2A </li>
                 </ol>
             </p>
             Remarques : <br> <textarea id="story" name="Remarques" rows="3" cols="45"> </textarea>
         <br> <br>
-        <input type="submit" value=Valider>
+        <input type="submit" value=Valider>   <!-- Bouton valider -->
         </form> 
         <hr>
         <h2>2.Enseignant</h2>
-        <form action="medias.html" method="get">  
+        <form action="medias.html" method="get">   <!-- lien vers medias.html avec URL modifiée apres appui bouton -->
             Prénom : <br><input type="text" name="prenom"> <br>
             Nom :<br> <input type="text" name="nom"> <br><br>
-            <select name="campus">
+            <select name="campus">    <!-- menu déroulant -->
                 <option>Brest</option>
                 <option>Nantes</option>
                 <option>Rennes</option>
@@ -46,7 +46,7 @@
         <input type="submit" value=Valider >
         </form>
         <hr>
-        <form action="textlistforms.html" method="post">  
+        <form action="textlistforms.html" method="post">  <!-- données envoyées au server -->
             <h2>3.Abbréviation</h2>
             <h3><pre>   ISEN <br> </pre></h3>
             <pre>       Institut Supérieur de l'Electronique et du Numérique</pre>
