@@ -38,6 +38,12 @@ span.label{
 
 #div1{
     text-align: center;
+    background-color: white;
+    background-clip: border-box;
+    opacity: 0.5;
+    background-image: url(images/gooseshadow.png),url(images/purpledot.png),url(images/purpledot.png);
+    background-repeat: no-repeat, repeat-y, repeat-y;
+    background-position: 80% 100%, 0% 0%, 100% 0%;
 }
 
 li{
@@ -54,15 +60,7 @@ dt{
     color :#CC6600;
 }
 
-/** {
-    background-color: #D2DC9D;
-}*/
 
-/*#div1{
-    background-clip: border-box;
-    background-color: white;;
-    opacity: 0.5;
-}*/
 
 a { text-decoration: none; }
 a:link { color: #993399; }
@@ -72,8 +70,11 @@ a:hover { color:  #C700F2; background-color: #FFC0CB; }
 a:active { color: red; background-color: #ffd9d9; }
 
 body  {
-    background-image: url(images/purpledot.png),url(images/plaid.png);
-    background-repeat: repeat-x, round;
-    
-}
+    background-image: url(images/blackgoose.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 
+}
+body {
+    background-color: #D2DC9D;
+}
