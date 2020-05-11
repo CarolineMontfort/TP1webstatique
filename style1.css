@@ -7,6 +7,7 @@ h1{
     font-size:1.5em;
     color : #993399;
     text-align: center;
+    text-shadow: .2em .2em violet;
 }
 
 h2{
