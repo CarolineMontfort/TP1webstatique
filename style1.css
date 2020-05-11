@@ -1,11 +1,24 @@
 * {
     font-family: Verdana, sans-serif;
-    color : green;
+    color: green;
 }
 
 h1{
-    font-family : "Marko one", Georgia;
-    color : green;
+    font-family : "Marko One", Georgia;
+    font-size:1.5em;
+    color : #993399;
 }
 
+h2~body{
+    font-size: 1em;
+    color : #CC6600;
+}
+
+prix {
+    font-family: Georgia;
+}
+
+p{
+    color: green;
+}
 
