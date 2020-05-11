@@ -1,4 +1,60 @@
 * {
+    font-family: Verdana, sans-serif;
+}
+
+h1{
+    font-family : "Marko One", Georgia;
+    font-size:1.5em;
+    color : #993399;
+    text-align: center;
+    text-shadow: .2em .2em violet;
+}
+
+h2{
+    font-size: 1em;
+    color : #FF6347;
+    text-transform: uppercase;
+    text-align : center;
+}
+
+span.price {
+    font-family: Georgia;
+}
+
+p.warning{
+    color : #FF0000;
+    
+}
+
+strong{
+    color:#FF6347;
+    font-style : italic;
+}
+
+span.label{
+    color : #808080;
+
+}
+
+#div1{
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+#info{
+    color: #D3D3D3;
+    font-style: italic;  
+}
+
+dt{
+    font-weight: bold;
+    color :#CC6600;
+}
+
+* {
     background-color: #D2DC9D;
 }
 
