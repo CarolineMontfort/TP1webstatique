@@ -17,8 +17,8 @@ html {
     margin-left: 5%;
     margin-right: 5%;
     display: grid;
-    grid-template-rows: 3em,20px,150px,300px, 5em;
-    grid-template-columns: 1fr,20px,150px,20px,150px,20px,150px;
+    grid-template-rows: 3em 20px 150px 300px  5em;
+    grid-template-columns: 1fr 20px 150px 20px 150px 20px 150px;
     grid-row-gap : 20px;
     grid-column-gap:20px;
   }
@@ -134,5 +134,5 @@ html {
     grid-column-start:7 ;
     grid-column-end:8;
   }
-}
+
 
