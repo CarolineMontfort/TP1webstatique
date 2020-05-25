@@ -14,13 +14,13 @@ html {
   
   /* GRID STYLES START HERE */
   #layout {
-    margin-left: 5%;
-    margin-right: 5%;
     display: grid;
-    grid-template-rows: 3em 20px 150px 300px  5em;
-    grid-template-columns: 1fr 20px 150px 20px 150px 20px 150px;
-    grid-row-gap : 20px;
-    grid-column-gap:20px;
+    margin-left: 5%;   /*marge*/
+    margin-right: 5%;
+    grid-template-rows: 3em 20px 150px 300px  5em;   /*définir le nombre et la taille de chaque ligne*/
+    grid-template-columns: 1fr 20px 150px 20px 150px 20px 150px; /*définir le nombre et la taille de chaque colonne*/
+    grid-row-gap : 20px;     /*définir les espaces entre les lignes*/
+    grid-column-gap:20px;    /*définir  espace entre les colonnes*/
   }
   
   

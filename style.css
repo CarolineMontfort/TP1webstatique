@@ -34,6 +34,7 @@ section {
   padding: 5px;
   width: 100%;
   text-align: center;
+  
 }
 
 .dish{
@@ -42,7 +43,9 @@ section {
   flex-grow: 1;
 }
 
-.photo{
+
+#menu .dish .photo{
   order : -1;
   align-items: baseline;
 }
+
