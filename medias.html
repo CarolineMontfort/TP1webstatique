@@ -15,33 +15,35 @@
         |
         <a href="medias.html">Medias</a>
         <br><hr>
-        <a href="#Images"> 1.Images </a><br>
-        <a href="#vidéo1"> 2.Vidéo1 </a><br>
-        <a href="#vidéo2"> 3.Vidéo2 </a><br>
-        <a href="#audio"> 4.Audio </a><br>
-        <a href="#iframe"> 5.Iframe </a><br><hr>
+        <ol>
+            <li><a href="#Images"> Images </a><br></li>
+            <li><a href="#vidéo1"> Vidéo1 </a><br></li>
+            <li><a href="#vidéo2"> Vidéo2 </a><br></li>
+            <li><a href="#audio"> Audio </a><br></li>
+            <li><a href="#iframe"> Iframe </a><br></li>
+        </ol>
+        <hr>
         <h2>Manipulation des médias en HTML</h2>
         <h3 id="Images">Images <span class="material-icons"> insert_photo </span></h3>
        
         <table>
-            <tr><td rowspan="2"> </td><td><img src="C:\Users\montc\OneDrive\Documents\COURS\WEB\medias\images\nantes.jpg" alt="texte" width="72" height="72"></td><td colspan="2"><a href="https://isen-nantes.fr/" target="_blank"><svg width="400" height="110"><rect width="200" height="100" style="fill#008000;stroke-width:3;stroke:rgb(0,255,0)" /></svg></a></td><td><img src="C:\Users\montc\OneDrive\Documents\COURS\WEB\medias\images\nantes.jpg" alt="texte" width="72" height="72"></td></tr>
-            <tr><td colspan="2"><svg></svg></td><td><img src="C:\Users\montc\OneDrive\Documents\COURS\WEB\medias\images\nantes.jpg" alt="texte" width="72" height="72"></td></tr>
+            <tr><td rowspan="2"><img src="C:/Users/montc/OneDrive/Documents/COURS/WEB/medias/images/nantes.jpg" alt="texte" width="72" height="72"></td> <td colspan="2"><a href="https://isen-nantes.fr/" target="_blank"><svg width="200" height="110"><rect width="90" height="80" x="50" y="20" style="fill:green" /></svg></a></td><td><img src="C:/Users/montc/OneDrive/Documents/COURS/WEB/medias/images/nantes.jpg" alt="texte" width="72" height="72"></td></tr>
+            <tr><td colspan="2"><svg height="60" width="200"><text x="0" y="15" fill="red" transform="rotate(30 20,40)">Indisponible</text></svg></td><td><img src="C:/Users/montc/OneDrive/Documents/COURS/WEB/medias/images/nantes.jpg" alt="texte" width="72" height="72"></td></tr>
         </table>
         <h3 id="vidéo1">Vidéo avec la balise iframe <span class="material-icons">movie</span></h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7gwK1dcz0IU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7gwK1dcz0IU"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h3 id="vidéo2">Vidéo avec la balise video <span class="material-icons">movie</span></h3>
         <video width="420" height="320" controls>
-            <source src="C:\Users\montc\OneDrive\Documents\COURS\WEB\medias\videos\windtunnel.mp4" type="video/mp4">
-            <source src="C:\Users\montc\OneDrive\Documents\COURS\WEB\medias\videos\windtunnel.ogg" type="video/ogg">
-            <source src="C:\Users\montc\OneDrive\Documents\COURS\WEB\medias\videos\windtunnel.webm" type="video/webm">    
+            <source src="C:/Users/montc/OneDrive/Documents/COURS/WEB/medias/videos/windtunnel.mp4" type="video/mp4">
+            <source src="C:/Users/montc/OneDrive/Documents/COURS/WEB/medias/videos/windtunnel.ogg" type="video/ogg">
+            <source src="C:/Users/montc/OneDrive/Documents/COURS/WEB/medias/videos/windtunnel.webm" type="video/webm">    
         </video>         
         <h3 id="audio">Audio <span class="material-icons">audiotrack</span></h3>
         <audio controls>
-            <source src="C:\Users\montc\OneDrive\Documents\COURS\WEB\medias\audio.mp3.m4a" type="audio/mp3">
+            <source src="C:/Users/montc/OneDrive/Documents/COURS/WEB/medias/audio.mp3.m4a" type="audio/mp3">
         </audio>
         <h3 id="iframe">Iframe <span class="material-icons">insert_link</span></h3>
-        <a href="https://www.isen-nantes.fr/" target="nom"> Cliquez ici ! </a><br>
-        <h3 id="Cliquez_ici"><iframe  width="400" height="200" name="nom"></iframe></h3>
+        <h4 id="Cliquez_ici"><a href="https://www.isen-nantes.fr/" target="nom"> Cliquez ici ! </a><br><iframe  width="400" height="200" name="nom"></iframe></h4>
         
     </body>    
 </html>
