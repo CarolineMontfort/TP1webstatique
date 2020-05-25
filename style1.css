@@ -41,7 +41,7 @@ span.label{
 }
 
 li{
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 #info{
@@ -52,4 +52,14 @@ li{
 dt{
     font-weight: bold;
     color :#CC6600;
+}
+
+li.c1{
+    list-style-type: lower-roman;
+}
+li.c2{
+    list-style-type: circle;
+}
+li.c4{
+    list-style-image: url(C:/Users/montc/OneDrive/Documents/COURS/WEB/TP1webstatique/TP1webstatique/images/bull.png); 
 }

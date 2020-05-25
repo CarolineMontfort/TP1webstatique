@@ -46,8 +46,14 @@ span.label{
     background-position: 80% 100%, 0% 0%, 100% 0%;
 }
 
-li{
-    list-style-type: none;
+li.c1{
+    list-style-type: lower-roman;
+}
+li.c2{
+    list-style-type: circle;
+}
+li.c4{
+    list-style-image: url(C:/Users/montc/OneDrive/Documents/COURS/WEB/TP1webstatique/TP1webstatique/images/bull.png); 
 }
 
 #info{

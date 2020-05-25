@@ -44,6 +44,16 @@ li{
     list-style-type: none;
 }
 
+li.c1{
+    list-style-type: lower-roman;
+}
+li.c2{
+    list-style-type: circle;
+}
+li.c4{
+    list-style-image: url(C:/Users/montc/OneDrive/Documents/COURS/WEB/TP1webstatique/TP1webstatique/images/bull.png); 
+}
+
 #info{
     color: #D3D3D3;
     font-style: italic;  
