@@ -17,25 +17,24 @@
             <li><a href="#Enseignant"> Enseignant </a><br></li>
             <li><a href="#Abbréviation" >Abbréviation </a><br></li>
         </ol>
-        
-        
-        
+    
         <hr>
-        <h2 id="Etudiant">Etudiant</h2>
+        <ul>
+            <li><h2 id="Etudiant">Etudiant</h2></li>
+        </ul>
         <form action="textlistforms.html" method="get">  <!-- formulaire avec URL modifiée -->
             Prénom : <input type="text" name="prenom">
             Nom : <input type="text" name="nom"> <br>
-            <nav>
-                <ol>   <!-- Faire bouton radios -->
-                    <li>Année d'études <input type="radio" name = "annee" value="1A" checked> 1A <input type="radio" name = "annee" value="2A" > 2A </li>
-                </ol>
-            </nav>
+            Année étude <input type="radio" name = "annee" value="1A" checked> 1A <input type="radio" name = "annee" value="2A" > 2A
+            <br>
             Remarques : <br> <textarea id="story" name="Remarques" rows="3" cols="45"> </textarea>
         <br> <br>
         <input type="submit" value=Valider>   <!-- Bouton valider -->
         </form> 
         <hr>
-        <h2 id="Enseignant">Enseignant</h2>
+        <ul>
+            <li><h2 id="Enseignant">Enseignant</h2></li>
+        </ul>
         <form action="medias.html" method="get">   <!-- lien vers medias.html avec URL modifiée apres appui bouton -->
             Prénom : <br><input type="text" name="prenom"> <br>
             Nom :<br> <input type="text" name="nom"> <br><br>
@@ -49,13 +48,14 @@
         <input type="submit" value=Valider >
         </form>
         <hr>
-        <form action="textlistforms.html" method="post">  <!-- données envoyées au server -->
-            <h2 id="Abbréviation">Abbréviation</h2>
-            <h3>  ISEN <br> </h3>
-            <pre>       Institut Supérieur de l'Electronique et du Numérique</pre>
-            <h3>   HTML <br> </h3>
-            <pre>       HyperText Markup Language </pre>
-        </form>
+        <ul>
+            <li><h2 id="Abbréviation">Abbréviation</h2></li>
+        </ul>
+        <h3>  ISEN <br> </h3>
+        <pre>       Institut Supérieur de l'Electronique et du Numérique</pre>
+        <h3>   HTML <br> </h3>
+        <pre>       HyperText Markup Language </pre>
+
         <hr>
     </body>
     

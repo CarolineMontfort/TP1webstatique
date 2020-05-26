@@ -15,7 +15,7 @@ html {
   /* GRID STYLES START HERE */
   #layout {
     display: grid;
-    margin-left: 5%;   /*marge*/
+    margin-left: 5%;   /*marge externe*/
     margin-right: 5%;
     grid-template-rows: 3em 20px 150px 300px  5em;   /*définir le nombre et la taille de chaque ligne*/
     grid-template-columns: 1fr 20px 150px 20px 150px 20px 150px; /*définir le nombre et la taille de chaque colonne*/
