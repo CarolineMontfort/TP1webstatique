@@ -1,0 +1,88 @@
+#layout {
+    display: grid;
+    margin-left: 5%;   /*marge externe*/
+    margin-right: 5%;
+    grid-template-rows: 3em 100px 100px 100px 100px 5em;   /*définir le nombre et la taille de chaque ligne*/
+    grid-template-columns: 1fr 20px 150px 20px 150px 20px 150px; /*définir le nombre et la taille de chaque colonne*/
+}
+/*liens*/
+a { text-decoration: none; }
+a:link { color: #050505; }
+a:visited { color:#46263b; } 
+a:focus { color:  #c72525; background-color: #faf8f8; }
+a:hover { color: #c72525 ; background-color: #faf8f8; }  /*lien survolé*/
+a:active { color: red; background-color: #faf8f8; }    /*lien en cours de clique*/
+
+
+nav{
+    font-family: verdana, sans-serif;
+    background-color: #be5a2f;
+    border-radius: .5em;
+}
+nav {
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+    grid-column-start:1 ;
+    grid-column-end:8 ;
+  }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+nav ul li {
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
+
+nav ul li a {
+    display: block;
+    border: 1px solid;
+    border-radius: .5em;
+    padding: .5em 1em;
+    margin: .5em; 
+  }
+
+#titre {
+    
+    grid-row-start:2 ;
+    grid-row-end:3 ;
+    grid-column-start:1 ;
+    grid-column-end:8 ;
+    color: #d9760d;
+    text-align: center;
+    text-shadow: 2px 2px #bab7b5;
+}
+
+main {
+    grid-row-start:3 ;
+    grid-row-end:8 ;
+    grid-column-start:1 ;
+    grid-column-end:8 ;
+    display: flex;
+    
+    flex-direction: column;
+}
+
+p::first-letter{
+    font-family: fantasy;
+    color : #d9760d;
+    text-indent: 10px;
+}
+
+#trois,#deux,#premier {
+    background-color: rgb(247, 137, 3);
+    text-align: center;
+    color : #ffffff;
+    border-radius: .5em;
+}
+
+.z{
+    font-style: italic;
+    text-decoration: underline;
+}

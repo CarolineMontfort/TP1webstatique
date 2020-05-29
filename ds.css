@@ -1,8 +1,0 @@
-
-/*liens*/
-a { text-decoration: none; }
-a:link { color: #993399; }
-a:visited { color:#937393; } 
-a:focus { color:  #C700F2; background-color: #FFC0CB; }
-a:hover { color:  #C700F2; background-color: #FFC0CB; }  /*lien survolé*/
-a:active { color: red; background-color: #ffd9d9; }    /*lien en cours de clique*/

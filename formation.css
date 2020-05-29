@@ -1,0 +1,86 @@
+#layout {
+    display: grid;
+    margin-left: 5%;   /*marge externe*/
+    margin-right: 5%;
+    grid-template-rows: 3em 100px 100px 100px 100px 5em;   /*définir le nombre et la taille de chaque ligne*/
+    grid-template-columns: 1fr 20px 150px 20px 150px 20px 150px; /*définir le nombre et la taille de chaque colonne*/
+}
+/*liens*/
+a { text-decoration: none; }
+a:link { color: #050505; }
+a:visited { color:#46263b; } 
+a:focus { color:  #c72525; background-color: #faf8f8; }
+a:hover { color: #c72525 ; background-color: #faf8f8; }  /*lien survolé*/
+a:active { color: red; background-color: #faf8f8; }    /*lien en cours de clique*/
+
+
+nav{
+    font-family: verdana, sans-serif;
+    background-color: #be5a2f;
+    border-radius: .5em;
+}
+nav {
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+    grid-column-start:1 ;
+    grid-column-end:8 ;
+  }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+nav ul li {
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
+
+nav ul li a {
+    display: block;
+    border: 1px solid;
+    border-radius: .5em;
+    padding: .5em 1em;
+    margin: .5em; 
+  }
+
+main {
+    display: flex;
+    
+    flex-grow: 1;
+}
+
+#titre {
+    
+  grid-row-start:2 ;
+  grid-row-end:3 ;
+  grid-column-start:1 ;
+  grid-column-end:8 ;
+  color: #d9760d;
+  text-align: center;
+  text-shadow: 2px 2px #bab7b5;
+}
+
+.annee {
+
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  
+}
+
+section {
+  background: #d9760d;
+  margin: 10px;
+  padding: 20px;
+  height: 400px;
+  width: 200px;
+  justify-content: center;
+  text-align: center;
+
+}
+
