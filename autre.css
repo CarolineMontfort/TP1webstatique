@@ -1,0 +1,146 @@
+body {
+  background-image: url(images/400x300-accueil-nantes.webp);
+  background-repeat: round;
+  background-size: 100% 100%; 
+}
+
+/*liens*/
+a { text-decoration: none; }
+a:link { color: #050505; }
+a:visited { color:#46263b; } 
+a:focus { color:  #f8eded; background-color: #6b6666; }
+a:hover { color: #f8eded ; background-color: #6b6666; }  /*lien survolé*/
+a:active { color: red; background-color: #faf8f8; }    /*lien en cours de clique*/
+
+/*Grille principale*/
+#layout {
+    display: grid;
+    grid-template-rows: 50px 100px 100px 100px 1fr 50px ;   /*définir le nombre et la taille de chaque ligne*/
+    grid-template-columns:  70px 300px 300px 50px 1fr; /*définir le nombre et la taille de chaque colonne*/
+}
+/*Titre page au milieu*/
+#titre {
+  font-family : -apple-system, BlinkMacSystemFont, 'Segoe UI';
+  grid-row-start:2 ;
+  grid-row-end:3 ;
+  grid-column-start:1 ;
+  grid-column-end:7 ;
+  color: #098b81;
+  text-align: center;
+  text-shadow: 2px 2px #f8eded;
+  text-transform: uppercase;
+}
+
+/*Menu du haut*/
+nav{
+  font-family: 'LeagueMonoVariable';
+  background-color: #c2bfbc;
+  border-radius: .5em;
+  opacity: 75%;
+  grid-row-start:1 ;
+  grid-row-end:2 ;
+  grid-column-start:2 ;
+  grid-column-end:7 ;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+nav ul li a {
+  display: block;
+  border-bottom: 1px solid;
+  border-radius: .5em;
+  padding: .5em 1em;
+  margin: .5em; 
+}
+
+
+nav li a {
+  display:block;
+  color:white;
+  text-decoration:none;
+  padding:5px;
+}
+
+/*Mettre sous-menu en mode vertical*/
+nav ul li:hover ul {
+  display:block;
+  background-color: #c2bfbc;
+  opacity: 85%;
+  border-radius: .5em;
+}
+
+/* Faire en sorte qu'en survol les sous-menu s'affichent*/
+nav li:hover ul li {
+  float:none;
+}
+
+/*Faire superposer la liste pour pas qu'elle decale tout vers le bas*/
+nav li ul {
+  position:absolute;
+}
+
+/*Faire disparaitre les sous-items du menu*/
+nav ul li ul {
+  display:none;
+}
+
+section {
+  grid-row-start: 3 ;
+  grid-row-end: 5 ;
+  grid-column-start:5 ;
+  grid-column-end:6;
+  color : #f7f7f7;
+}
+
+main {
+  grid-row-start: 3 ;
+  grid-row-end: 4 ;
+  grid-column-start:2 ;
+  grid-column-end:5;
+  color : #f7f7f7;
+}
+
+
+
+strong {
+  text-decoration: underline;
+}
+
+/*Bas de page*/
+footer {
+  background-color: #26778b;
+  color:#f8eded;
+  grid-row-start: 6 ;
+  grid-row-end: 7 ;
+  grid-column-start: 1 ;
+  grid-column-end: 6;
+  border-radius: .5em;
+  text-align: center;
+  opacity: 75%;
+}
+
+
+/*Faire image ronde*/
+.roundedImage{
+  overflow:hidden;
+  clip-path:ellipse(50% 50%);
+  width:60px;
+  height:60px;
+  grid-row-start:1 ;
+  grid-row-end: 2 ;
+  grid-column-start:1 ;
+  grid-column-end:2;
+}
+
