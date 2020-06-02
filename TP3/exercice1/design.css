@@ -74,3 +74,11 @@ span.day {
     color : #783F27 ;
     font-family: Verdana;
 }
+
+h1,header{
+    text-align : center;
+}
+
+header{
+    background-image: url(C:/Users/montc/OneDrive/Documents/COURS/WEB/TP1webstatique/TP1webstatique/images/croissants_banner.jpg);
+}
